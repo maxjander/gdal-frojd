@@ -107,7 +107,6 @@ class GdalFrojd < Formula
     system "cmake", "--build", "build"
     system "cmake", "--install", "build"
 
-    bash_completion.install (share/"bash-completion/completions").children
   end
 
   test do
