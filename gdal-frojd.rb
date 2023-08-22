@@ -1,4 +1,4 @@
-class Gdal_frojd < Formula
+class GdalFrojd < Formula
   desc "Geospatial Data Abstraction Library"
   homepage "https://www.gdal.org/"
   url "http://download.osgeo.org/gdal/3.6.3/gdal-3.6.3.tar.xz"
