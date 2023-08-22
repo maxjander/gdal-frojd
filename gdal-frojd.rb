@@ -6,7 +6,7 @@ class GdalFrojd < Formula
   license "MIT"
 
   livecheck do
-    url "https://download.osgeo.org/gdal/CURRENT/"
+    url "https://download.osgeo.org/gdal/3.6.3/"
     regex(/href=.*?gdal[._-]v?(\d+(?:\.\d+)+)\.t/i)
   end
 
